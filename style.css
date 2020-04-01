@@ -187,13 +187,10 @@ background: url(images/girl_silhouette_moon_122062_1280x720.jpg) no-repeat top c
 .p_center{
     text-align: center;
 }
-footer{
-  margin: 19% 19% 0;
-margin-bottom: 60px;
-background: linear-gradient(to top left, powderblue, pink);
+
 
     
-}
+
 .text_white{
     color: #fff;
     font-size: 40px;
@@ -243,7 +240,7 @@ color: #0088cc;
 .open-button {
     bottom: 0px;
     background-color: #1a3f6b;
-    font-size: 31px;
+    font-size: 34px;
     color: #e6c7d7;
     padding: 0px 20px;
     border: none;
@@ -360,6 +357,24 @@ color: #0088cc;
 }
 }
 @media (min-width: 646px) and (max-width: 789px){
+.ots {
+    width: 196px;
+    text-align: left;
+    font-size: 38px;
+    margin-left: -20px;
+}
+
+.fp {
+    margin-top: 227%;
+    margin-left: -46px !important;
+}
+.up{
+
+
+}
+.op{
+  margin-left: -46px !important;
+}
 .ots_How {
     margin-right: 25%;
     color: #b8e1b3;
@@ -387,7 +402,15 @@ color: #0088cc;
    
     margin-left: -16px;
 }
+.op {
+   margin-left: -38px;
+}
+.up {
+    margin-left: 11px;
+}
+.fp{
 
+}
 }
 @media  (max-width: 583px){
 .ots_How {
@@ -420,10 +443,21 @@ color: #0088cc;
 }
 
 @media (max-width: 800px){
- .icons_oform{
-    margin-left: 15%;
-    font-size: 40px;
+  .text_h2{
+  font-size: 58px !important;
+  margin-top: 20px !important;
 }
+.text_p {
+    margin-top: -3% !important;
+    font-size: 46px !important;
+}
+.icons_oform{
+       margin-left: 15% !important;
+    font-size: 50px !important;
+}
+
+
+
   .shadow-point {
     width: 25px !important;
     height: 25px !important;
@@ -571,4 +605,95 @@ color: #0088cc;
        margin-left: 15% !important;
     font-size: 50px !important;
 }
+}
+@media  (max-width: 554){
+
+ .text_h2{
+  font-size: 63px !important;
+  margin-top: 20px !important;
+}
+.text_p {
+    margin-top: -3% !important;
+    font-size: 48px !important;
+}
+.icons_oform{
+       margin-left: 15% !important;
+    font-size: 50px !important;
+}
+.op {
+    margin-left: -59px;
+}
+.up {
+    margin-left: 11px;
+}
+}
+@media  (max-width: 835px){
+
+ .text_h2{
+  font-size: 58px !important;
+  margin-top: 20px !important;
+}
+.text_p {
+    margin-top: -3% !important;
+    font-size: 46px !important;
+}
+.icons_oform{
+       margin-left: 15% !important;
+    font-size: 50px !important;
+}
+
+}
+@media  (max-width: 680px){
+.shadow-point {
+   
+    margin: 3px auto !important;
+    
+}
+ .text_h2{
+  font-size: 58px !important;
+  margin-top: 20px !important;
+}
+.text_p {
+    margin-top: -3% !important;
+   font-size: 41px !important;
+}
+.icons_oform{
+       margin-left: 15% !important;
+           font-size: 34px !important;
+            margin-bottom: 9%;
+}
+
+}
+@media  (max-width: 470px){
+
+ .text_h2 {
+    font-size: 45px !important;
+    margin-top: 20px !important;
+}
+.text_p {
+    margin-top: -3% !important;
+    font-size: 36px !important;
+}
+.icons_oform{
+       margin-left: 15% !important;
+            font-size: 35px !important;
+
+            margin-bottom: 9%;
+}
+
+}
+@media  (max-width: 353px){
+
+.icons_oform{
+       
+       font-size: 30px !important;
+}
+
+}
+@media  (max-width: 412px){
+
+.open-button{
+  font-size: 28px;
+}
+
 }
