@@ -712,11 +712,12 @@ color: #0088cc;
 }
 @media  (max-width: 353px){
 
-.icons_oform{
-       
-       font-size: 30px !important;
+.icons_oform {
+    font-size: 21px !important;
 }
-
+.open-button {
+    font-size: 21px;
+}
 }
 @media  (max-width: 412px){
 
@@ -724,4 +725,9 @@ color: #0088cc;
   font-size: 28px;
 }
 
+}
+@media (max-width: 394px)
+.ots {
+    display: none;
+  
 }
