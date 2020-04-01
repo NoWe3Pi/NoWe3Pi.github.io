@@ -1,0 +1,508 @@
+
+.glav{
+    margin-bottom: 5%;
+}
+
+#fon{
+        margin: 50px;
+background : url(images/paren_siluet_zakat_nebo_more_120026_1400x1050.jpg) no-repeat top center /cover;
+height: 930px;
+}
+
+
+/*NAVIGATION*/
+
+
+.nav-link {
+    padding-right: 5.5rem !important;
+    color: #fff !important;
+    font-size: 30px;
+    padding-top: 10px !important;
+    text-align: center;
+}
+.nav-link {
+    padding-right: 5.5rem !important;
+  
+}
+.nav-item a{
+	font-size: 50px;
+}
+
+p{
+	color: #fff;
+}
+.w{
+    margin-top: 10%;
+}
+
+/*BUTTON*/
+
+.row{
+	margin-left: 60px !important;
+}
+.btn-one{background-color: #facf8c !important}
+.btn-two{background-color: #fdc0e3 !important}
+.btn-three{background-color: #93d08b !important}
+.btn-four{background-color: #fea35d !important}
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+.color_nav{
+	margin-top: 3%;
+	color: #fdc0e3;
+	font-size:30px;
+	cursor:pointer;
+	margin-left: 7%;
+}
+.Clic_text{
+	margin-left: -47%;
+	color: #fff;
+	font-size: 30px;
+}
+
+
+
+
+
+.head .btn{
+	    border-radius: 2.25rem ;
+}
+.navbar-collapse {
+    margin: 0 0 0 6.5%;
+}
+.logo{
+	margin-left: -29px;
+	width: 135px;
+}
+
+/*СЕКЦИЯ 2 */
+.sprite_img{
+	    width: 93%;
+}
+.sprite_www {
+        width: 30.67%;
+}
+.qqw {
+    position: absolute;
+    right: 15px;
+    background: red;
+	width: 212px;
+}
+
+
+.ots{
+	text-align: left;
+    
+    font-size: 41px;
+     margin-left: 6px;
+
+}
+.ots_News {
+    text-align: left;
+    color: #fff;
+
+}
+.ots_How{
+	color: #b8e1b3;
+	margin-top: 10%;
+}
+.ots_P{
+	font-size: 18px;
+	margin-top: 15px;
+}
+.ots_A{
+	color: #b8e1b3;
+	text-decoration: none;
+	font-size: 15px;
+	border-bottom: 2px solid #b8e1b3;
+}
+
+.sprite_img_element{
+	width: 450px;
+	height: 390px;
+}
+.wwe{
+	width: 100%;
+}
+
+
+/* Секция 3 */
+#fw{
+    border-radius: 90% 90% 0 0;
+    margin: 50px;
+background: url(images/girl_silhouette_moon_122062_1280x720.jpg) no-repeat top center /cover;
+    height: 100vh;
+}
+
+.text{
+   padding-top: 3%;
+}
+.text h2{
+    font-size: 80px;
+}
+.text p {
+    margin-top: -20px;
+    font-size: 66px;
+}
+
+.p_center{
+    text-align: center;
+}
+footer{
+  margin: 19% 19% 0;
+margin-bottom: 60px;
+background: linear-gradient(to top left, powderblue, pink);
+
+    
+}
+.text_white{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 16%;
+    margin-bottom: 18px;
+}
+.text_{
+	font-size: 30px;
+    color: #7948b5;
+}
+.text_h2{
+	color: #fff;
+	text-align: center;
+}
+
+.icons_oform{
+    margin: 20px auto;
+    text-align: center;
+    font-size: 60px;
+}
+.fa{
+    padding-right: 100px;
+    color: #fff;
+}
+/* HOVER */
+.icon_inst:hover{
+color: #bc1888;
+}
+.icon_vk:hover{
+color: #4c75a3;
+}
+.icon_teleg:hover{
+color: #0088cc;
+}
+.icon_whatsapp:hover{
+	color: #25d366;
+}
+
+.ots_News:hover{
+	background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  line-height: 40px;
+}
+/* ФОРМА */
+.open-button {
+    bottom: 0px;
+    background-color: #1a3f6b;
+    font-size: 31px;
+    color: #e6c7d7;
+    padding: 0px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    right: 0px;
+    width: 100%;
+}
+
+/* Всплывающая форма-скрыта по умолчанию */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+}
+
+/* Добавление стилей в контейнер форм */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background: linear-gradient(to right, #446fa4, #ba6383);
+}
+
+/* Поля ввода полной ширины */
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    font-size: 30px;
+}
+
+/* Когда входы получают фокус, сделайте что-нибудь */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Установите стиль для кнопки отправить/кнопка */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Добавьте красный цвет фона к кнопке отмена */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Добавьте некоторые эффекты наведения на кнопки */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+/*Медиа запросы  */
+@media (min-width: 992px) { 
+.color_nav{
+	display: none;
+}
+.sprite_www {
+        width: 85%;
+       
+}
+.sprite_img{
+	    width: 85%;
+
+}
+
+.Clic_text{
+	margin-left: 0;
+	
+}
+}
+
+
+@media (max-width: 991px) { 
+.sprite_img{
+	    width: 94%;
+
+}
+}
+
+@media (min-width: 992px) and (max-width: 1215px){
+	.nav-item a{
+	font-size: 40px;
+}
+}
+@media (min-width: 992px) and (max-width: 1104px){
+	.nav-item a{
+	font-size: 30px;
+}
+.respons{
+  font-size: 47px;
+    width: 88%;
+}
+}
+}
+@media (min-width: 992px) and (max-width: 1024px){
+	.nav-item a{
+	font-size: 30px;
+}
+}
+@media (min-width: 646px) and (max-width: 789px){
+.ots_How {
+    margin-right: 25%;
+    color: #b8e1b3;
+    margin-top: 10%;
+    font-size: 33px;
+    /* margin: -33px; */
+}
+.ots {
+    text-align: left;
+    font-size: 38px;
+    margin-left: -16px;
+}
+
+}
+@media  (max-width: 645px){
+.ots_How {
+    margin-right: 25%;
+    color: #b8e1b3;
+    margin-top: 10%;
+    font-size: 28px;
+    /* margin: -33px; */
+}
+.ots {
+    text-align: left;
+   
+    margin-left: -16px;
+}
+
+}
+@media  (max-width: 583px){
+.ots_How {
+    margin-right: 25%;
+    color: #b8e1b3;
+    margin-top: 10%;
+    font-size: 20px;
+}
+.ots_News{
+	font-size: 30px;
+}
+
+}
+
+
+.sss a{
+	text-decoration: none;
+	color: #fff;
+}
+.sss a:hover{
+	text-decoration: none;
+	color: red;
+}
+
+@media (max-width: 991px){
+
+.respons{
+  font-size: 30px;
+}
+}
+
+@media (max-width: 800px){
+ 
+  .shadow-point {
+    width: 25px !important;
+    height: 25px !important;
+   
+}
+.text_h2{
+  font-size: 30px !important;
+  margin-top: 20px;
+}
+.text_p {
+    text-align: left;
+    font-size: 34px !important;
+}
+.col-3 {
+    margin-right: 22%;
+    
+}
+
+}
+
+@media (max-width: 680px){
+ .s{
+    margin-right: 70px;
+    
+    margin-left: 5%;
+}
+}
+
+
+@media (max-width: 704px){
+
+.text_p {
+    text-align: left;
+    font-size: 30px !important;
+}
+}
+@media (max-width: 584px){
+
+.text_p {
+    text-align: left;
+    font-size: 26px !important;
+}
+}
+@media (max-width: 709px){
+
+.respons {
+    width: 80%;
+    font-size: 30px;
+}
+}
+@media (min-width: 430px) and(max-width: 583px){
+
+  .s {
+  
+    margin-left: 8%;
+}
+}
+.pp{
+  color: #fff;
+  text-decoration: none;
+}
+.pp:hover{
+  color: red;
+}
+
+@media (max-width: 450px){
+.op{
+      margin-left: -40px;
+
+}
+.up{
+     margin-left: -12px;
+}
+}
+.fa-camera-retro{
+      font-size: 70px !important;
+    margin-left: 13px;
+    padding-right: 0;
+    color: #c370c8;
+    margin: 0 10px 0 10px;
+
+  }  
+.fa-caret-right{
+  color: green;
+  font-size: 50px;
+}
