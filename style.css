@@ -361,7 +361,7 @@ color: #0088cc;
 .ots {
     width: 196px;
     text-align: left;
-    font-size: 38px;
+    font-size: 35px;
     margin-left: -20px;
 }
 
@@ -730,9 +730,30 @@ color: #0088cc;
 }
 
 }
+.fif{
+  display: none;
+}
+
 @media (max-width: 394px){
 .ots {
     display: none;
-  
+  }
+  .ots_How {
+    margin-left: 11px;
+    margin-right: 25%;
+    color: #b8e1b3;
+    margin-top: 10%;
+    font-size: 20px;
+    width: 100%;
+
 }
+.fif{
+  display: table;
 }
+.ots_News {
+  margin-left: 55px;
+    font-size: 40px;
+}
+
+}
+
