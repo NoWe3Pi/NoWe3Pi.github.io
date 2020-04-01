@@ -167,6 +167,7 @@ p{
 
 /* Секция 3 */
 #fw{
+      margin-top: 100px;
     border-radius: 90% 90% 0 0;
     margin: 50px;
 background: url(images/girl_silhouette_moon_122062_1280x720.jpg) no-repeat top center /cover;
@@ -590,6 +591,11 @@ color: #0088cc;
 }
 }
 @media  (max-width: 506px){
+.shadow-point {
+   
+    margin: 6px auto !important;
+    
+}
 #fw{
   border-radius: 0;
 }
@@ -601,9 +607,9 @@ color: #0088cc;
     margin-top: -3% !important;
     font-size: 48px !important;
 }
-.icons_oform{
-       margin-left: 15% !important;
-    font-size: 50px !important;
+.icons_oform {
+    margin-left: 15% !important;
+    font-size: 34px !important;
 }
 }
 @media  (max-width: 554){
