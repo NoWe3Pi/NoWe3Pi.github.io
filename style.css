@@ -504,12 +504,16 @@ color: #0088cc;
 }
 
 @media (max-width: 450px){
-.op{
-      margin-left: -40px;
-
+.op {
+    font-size: 28px !important;
+    margin-left: -71px;
 }
+
 .up{
      margin-left: -12px;
+}
+.ots_News {
+    font-size: 22px;
 }
 }
 .fa-camera-retro{
@@ -643,6 +647,11 @@ color: #0088cc;
 
 }
 @media  (max-width: 680px){
+.ots_News:hover {
+  
+    font-size: 35px;
+    
+}
 .s{
     margin-right: 70px;
     
@@ -669,14 +678,29 @@ color: #0088cc;
 
 }
 @media  (max-width: 470px){
-
- .text_h2 {
-    font-size: 45px !important;
+.ots_News:hover {
+  
+    font-size: 25px;
+    
+}
+.fp {
+    margin-left: -26px;
+}
+.respons {
+    width: 14%;
+    font-size: 22px;
+}
+.fa-camera-retro {
+    font-size: 28px !important;
+  
+}
+.text_h2 {
+    font-size: 31px !important;
     margin-top: 20px !important;
 }
 .text_p {
     margin-top: -3% !important;
-    font-size: 36px !important;
+    font-size: 21px !important;
 }
 .icons_oform{
        margin-left: 15% !important;
