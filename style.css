@@ -352,7 +352,8 @@ color: #0088cc;
     width: 88%;
 }
 }
-}
+
+
 @media (min-width: 992px) and (max-width: 1024px){
 	.nav-item a{
 	font-size: 30px;
@@ -419,19 +420,22 @@ color: #0088cc;
 }
 
 @media (max-width: 800px){
- 
+ .icons_oform{
+    margin-left: 15%;
+    font-size: 40px;
+}
   .shadow-point {
     width: 25px !important;
     height: 25px !important;
    
 }
 .text_h2{
-  font-size: 30px !important;
-  margin-top: 20px;
+
+
 }
 .text_p {
-    text-align: left;
-    font-size: 34px !important;
+    margin-top: 10% !important;
+    font-size: 50px !important;
 }
 .col-3 {
     margin-right: 22%;
@@ -449,20 +453,7 @@ color: #0088cc;
 }
 
 
-@media (max-width: 704px){
 
-.text_p {
-    text-align: left;
-    font-size: 30px !important;
-}
-}
-@media (max-width: 584px){
-
-.text_p {
-    text-align: left;
-    font-size: 26px !important;
-}
-}
 @media (max-width: 709px){
 
 .respons {
@@ -495,7 +486,7 @@ color: #0088cc;
 }
 }
 .fa-camera-retro{
-      font-size: 70px !important;
+      font-size: 50px  !important;
     margin-left: 13px;
     padding-right: 0;
     color: #c370c8;
@@ -505,4 +496,80 @@ color: #0088cc;
 .fa-caret-right{
   color: green;
   font-size: 50px;
+}
+
+@media (min-width: 800px) and (max-width: 1000px){
+ 
+
+.text_h2{
+  font-size: 70px !important;
+  margin-top: 20px !important;
+}
+.text_p {
+    margin-top: -20px !important;
+    font-size: 57px !important;
+}
+.icons_oform{
+       margin-left: 15% !important;
+    font-size: 50px !important;
+}
+
+}
+@media (min-width: 639px) and (max-width: 731px){
+ 
+
+.text_p {
+    margin-top: -1% !important;
+    font-size: 44px !important;
+}
+}
+@media (max-width: 639px){
+  #fw{
+  
+  margin: 0;
+ }
+ .text_h2{
+  font-size: 63px !important;
+  margin-top: 20px !important;
+}
+.text_p {
+    margin-top: -1% !important;
+    font-size: 43px !important;
+}
+.icons_oform{
+       margin-left: 15% !important;
+    font-size: 50px !important;
+}
+}
+@media  (max-width: 615px){
+
+ .text_h2{
+  font-size: 63px !important;
+  margin-top: 20px !important;
+}
+.text_p {
+    margin-top: -3% !important;
+    font-size: 48px !important;
+}
+.icons_oform{
+       margin-left: 15% !important;
+    font-size: 50px !important;
+}
+}
+@media  (max-width: 506px){
+#fw{
+  border-radius: 0;
+}
+ .text_h2{
+  font-size: 63px !important;
+  margin-top: 20px !important;
+}
+.text_p {
+    margin-top: -3% !important;
+    font-size: 48px !important;
+}
+.icons_oform{
+       margin-left: 15% !important;
+    font-size: 50px !important;
+}
 }
