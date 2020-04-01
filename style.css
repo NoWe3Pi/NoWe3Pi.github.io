@@ -429,9 +429,8 @@ color: #0088cc;
     height: 25px !important;
    
 }
-.text_h2{
-
-
+.text_h2 {
+    font-size: 64px !important;
 }
 .text_p {
     margin-top: 10% !important;
@@ -536,9 +535,9 @@ color: #0088cc;
     margin-top: -1% !important;
     font-size: 43px !important;
 }
-.icons_oform{
-       margin-left: 15% !important;
-    font-size: 50px !important;
+.icons_oform {
+    margin-left: 15% !important;
+    font-size: 27px !important;
 }
 }
 @media  (max-width: 615px){
@@ -551,9 +550,9 @@ color: #0088cc;
     margin-top: -3% !important;
     font-size: 48px !important;
 }
-.icons_oform{
-       margin-left: 15% !important;
-    font-size: 50px !important;
+.icons_oform {
+    margin-left: 15% !important;
+    font-size: 33px !important;
 }
 }
 @media  (max-width: 506px){
