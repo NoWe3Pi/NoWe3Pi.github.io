@@ -506,7 +506,7 @@ color: #0088cc;
 @media (max-width: 450px){
 .op {
     font-size: 28px !important;
-    margin-left: -71px;
+    margin-left: -52px;
 }
 
 .up{
@@ -729,8 +729,9 @@ color: #0088cc;
 }
 
 }
-@media (max-width: 394px)
+@media (max-width: 394px){
 .ots {
     display: none;
   
+}
 }
